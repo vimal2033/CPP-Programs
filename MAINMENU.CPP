@@ -16,11 +16,11 @@ char *menu_items[] = {
 	"Roots of Quadratic Equation",							// CODE11.H > QuadraticRoots()
 	"Maclaurin Series for e^x, sin x, and cos x",			// CODE12.H > MaclaurinSeries()
 	"Array (1D) find max min",								// CODE13.H > ArrMinMax()
-	"Leap year",
-	"Greatest among three numbers",
-	"Even and Odd number",
-	"Prime number series upto N numbers",
-	"Voter eligiblity",
+	"Leap year",											// CODE14.H > LeapYear()
+	"Greatest among three numbers",							// CODE15.H > GreatestThree()
+	"Even and Odd number",									// CODE16.H > EvenOdd()
+	"Prime number series upto N numbers",					// CODE17.H > PrimeSeries()
+	"Voter eligiblity",										// CODE18.H > VoterEligible()
 	"Find Birth from train seat number (L,U,M,SL,SU)",
 	"Pelindrom number/character",
 	"Input marks find 1/2/3 division pass and fail",
@@ -72,6 +72,11 @@ void run_program(int index) {
 	case 10: QuadraticRoots(); break;
 	case 11: MaclaurinSeries(); break;
 	case 12: ArrMinMax(); break;
+	case 13: LeapYear(); break;
+	case 14: GreatestThree(); break;
+	case 15: EvenOdd(); break;
+	case 16: PrimeSeries(); break;
+	case 17: VoterEligible(); break;
 	
 	
 
