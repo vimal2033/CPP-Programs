@@ -3,10 +3,8 @@
     Description: Converts temperature between Celsius and Fahrenheit.
 */
 
-#include <iostream.h>
-#include <conio.h>
 
-void main() {
+void TempConverter() {
     clrscr();  // Clear the screen
 
     float temp, convertedTemp;

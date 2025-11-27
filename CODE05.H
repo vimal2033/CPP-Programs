@@ -3,10 +3,7 @@
     Description: Calculates volume using base, height of triangle, and prism length.
 */
 
-#include <iostream.h>
-#include <conio.h>
-
-void main() {
+void VolumePrism() {
     clrscr();  // Clear the screen
 
     double base, triHeight, length, volume;

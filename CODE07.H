@@ -3,10 +3,7 @@
     Description: Calculates volume using length, width, and height inputs.
 */
 
-#include <iostream.h>
-#include <conio.h>
-
-void main() {
+void VolumeCuboid() {
     clrscr();  // Clear the screen
 
     double length, width, height, volume;

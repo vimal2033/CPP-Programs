@@ -3,10 +3,7 @@
     Description: Calculates simple interest given principal, rate, and time.
 */
 
-#include <iostream.h>
-#include <conio.h>
-
-void main() {
+void SimpleInterest() {
     clrscr();  // Clear the screen
 
     double principal, rate, time, simpleInterest;

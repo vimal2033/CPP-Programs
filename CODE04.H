@@ -1,13 +1,10 @@
-// Program 4: Calculate Area of a Rectangle
+// Title: Calculate Area of a Rectangle
 // Description: This program takes the length and breadth of a rectangle as input,
 //              calculates the area using the formula,
 //              and displays the result.
 
-// Adding header files
-#include <iostream.h>
-#include <conio.h>
 
-void main() {
+void AreaRectangle() {
     clrscr();  // Clear the screen 
 
     // Declare variables for length, breadth, and area

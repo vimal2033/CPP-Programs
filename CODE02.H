@@ -1,13 +1,10 @@
-// Program 2: Calculate Area of a Triangle
+// Title: Calculate Area of a Triangle
 // Description: This program takes the base and height of a triangle as input,
 //              calculates the area using the formula (1/2) * base * height,
 //              and displays the result.
 
-// Adding header files
-#include <iostream.h>
-#include <conio.h>
 
-void main() {
+void AreaTriangle() {
     clrscr();  // Clear the screen 
 
     // Declare variables to store base, height and area

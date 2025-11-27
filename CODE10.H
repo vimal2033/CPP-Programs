@@ -4,10 +4,8 @@
                  calculates the average, and displays the result.
 */
 
-#include <iostream.h>
-#include <conio.h>
 
-void main() {
+void AverageFive() {
     clrscr(); // Clear screen for Turbo C
 
     float s1, s2, s3, s4, s5, avg;

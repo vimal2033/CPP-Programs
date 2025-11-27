@@ -5,11 +5,7 @@
                  by the user. It handles real and complex roots.
 */
 
-#include <iostream.h>
-#include <conio.h>
-#include <math.h>
-
-void main() {
+void QuadraticRoots() {
     clrscr(); // Clear the screen (Turbo C++ specific)
 
     float a, b, c;

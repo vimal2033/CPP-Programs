@@ -11,8 +11,6 @@
     cos x = 1 - x^2/2! + x^4/4! - x^6/6! + ... + Tn
 */
 
-#include <iostream.h>
-#include <conio.h>
 
 float factorial(int n) {
     float fact = 1;
@@ -28,7 +26,7 @@ float power(float base, int exp) {
     return result;
 }
 
-void main() {
+void MaclaurinSeries() {
     clrscr();
 
     float x, sinx = 0, cosx = 0, expx = 0;

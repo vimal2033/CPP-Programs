@@ -1,13 +1,10 @@
-// Program 3: Calculate Area of a Circle
+// Title: Calculate Area of a Circle
 // Description: This program takes the radius of a circle as input,
 //              calculates the area using the formula Area = π * r * r,
 //              and displays the result.
 
-// Adding header files
-#include <iostream.h>
-#include <conio.h>
 
-void main() {
+void AreaCircle() {
     clrscr();  // Clear the screen 
 
     // Declare variables to store radius and area

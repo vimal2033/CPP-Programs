@@ -3,10 +3,7 @@
     Description: Calculates the volume of a sphere given the radius.
 */
 
-#include <iostream.h>
-#include <conio.h>
-
-void main() {
+void VolumeSphere() {
     clrscr();  // Clear the screen
 
     double radius, volume;
