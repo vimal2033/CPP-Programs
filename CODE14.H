@@ -1,7 +1,6 @@
 /*
 Title: Leap Year Checker
-Description: Simple C++ program to check if entered year is leap year using Gregorian rules.
-Compatible with Turbo C++ DOS environment with screen clear and pause features.
+Description: Simple program to check if entered year is leap year using Gregorian rules.
 */
 
 void LeapYear() {

@@ -1,10 +1,8 @@
 /*
 Title: Find Minimum and Maximum using Class
-Description: Turbo C++ program using NumberOps class to find minimum and maximum among three numbers.
+Description: Program using NumberOps class to find minimum and maximum among three numbers.
 */
 
-#include<iostream.h>
-#include<conio.h>
 
 class NumberOps {
 private:

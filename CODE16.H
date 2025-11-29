@@ -1,7 +1,6 @@
 /*
 Title: Even Odd Checker
 Description: Program to input a number and determine if it is even or odd using modulo operator.
-Designed for Turbo C++ with screen clear and pause features.
 */
 
 void EvenOdd() {

@@ -1,6 +1,6 @@
 /*
 Title: Age Calculator using Class
-Description: Turbo C++ OOP program with AgeCalculator class to compute exact age in years, months, days and age category from birth date.
+Description: OOP program with AgeCalculator class to compute exact age in years, months, days and age category from birth date.
 */
 
 

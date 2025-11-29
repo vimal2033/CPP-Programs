@@ -2,6 +2,9 @@
 #include<conio.h>
 #include<stdlib.h>
 #include <math.h>
+#include<string.h>
+#include<ctype.h> 
+#include <stdio.h>
 #include "CODE01.H"
 #include "CODE02.H"
 #include "CODE03.H"
@@ -20,3 +23,16 @@
 #include "CODE16.H"
 #include "CODE17.H"
 #include "CODE18.H"
+#include "CODE19.H"
+#include "CODE20.H"
+#include "CODE21.H"
+#include "CODE22.H"
+#include "CODE23.H" 
+#include "CODE24.H"
+#include "CODE25.H"
+#include "CODE26.H"
+#include "CODE27.H"
+#include "CODE28.H"
+#include "CODE29.H"
+#include "CODE30.H"
+

@@ -21,18 +21,18 @@ char *menu_items[] = {
 	"Even and Odd number",									// CODE16.H > EvenOdd()
 	"Prime number series upto N numbers",					// CODE17.H > PrimeSeries()
 	"Voter eligiblity",										// CODE18.H > VoterEligible()
-	"Find Birth from train seat number (L,U,M,SL,SU)",
-	"Pelindrom number/character",
-	"Input marks find 1/2/3 division pass and fail",
-	"Find how much old you are",
-	"Find min max among 3 number",
-	"Add complex number using frien function",
-	"Function overloading",
-	"Check Nelson Number",
-	"Factorial of a number using operator overloading",
-	"Check for armstrong number",
-	"Sum of digit",
-	"Transform a string into uppercase",
+	"Find Birth from train seat number (L,U,M,SL,SU)",		// CODE19.H > GetTrainBirth()
+	"Pelindrom number/character",							// CODE20.H > FindPalindrome()
+	"Input marks find 1/2/3 division pass and fail",		// CODE21.H > FindStudentGrade()
+	"Find how much old you are",							// CODE22.H > AgeCalculate()
+	"Find min max among 3 number",							// CODE23.H > MinMax()
+	"Add complex number using friend function",				// CODE24.H > FriendComplexAdd()
+	"Function overloading",								 	// CODE25.H > FriendOverloading()
+	"Check Neon Number",									// CODE26.H > CheckNeonNumber()
+	"Factorial of a number using operator overloading",		// CODE27.H > FactorialOverloading()
+	"Check for armstrong number",							// CODE28.H > Armstrong()
+	"Sum of digit",											// CODE29.H > DigitSum()
+	"Transform a string into uppercase",					// CODE30.H > upper()
 	"Diffrence of two dates",
 	"Pramid pattern",
 	"Programm to sort names",
@@ -77,6 +77,18 @@ void run_program(int index) {
 	case 15: EvenOdd(); break;
 	case 16: PrimeSeries(); break;
 	case 17: VoterEligible(); break;
+	case 18: GetTrainBirth(); break;
+	case 19: FindPalindrome(); break;
+	case 20: FindStudentGrade(); break;
+	case 21: AgeCalculate(); break;
+	case 22: MinMax(); break;
+	case 23: FriendComplexAdd(); break;
+	case 24: FriendOverloading(); break;
+	case 25: CheckNeonNumber(); break;
+	case 26: FactorialOverloading(); break;
+	case 27: Armstrong(); break;
+	case 28: DigitSum(); break;
+	case 29: upper(); break;
 	
 	
 

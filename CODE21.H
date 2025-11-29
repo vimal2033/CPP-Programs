@@ -1,6 +1,6 @@
 /*
 Title: Student Grade Division Calculator using Class
-Description: Turbo C++ OOP program with StudentGrade class to calculate division (1st/2nd/3rd) based on marks percentage and Pass/Fail status.
+Description: Program with StudentGrade class to calculate division (1st/2nd/3rd) based on marks percentage and Pass/Fail status.
 */
 
 class StudentGrade {

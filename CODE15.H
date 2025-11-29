@@ -1,7 +1,6 @@
 /*
 Title: Greatest Among Three Numbers
 Description: Program to input three numbers and display the greatest of them using if-else conditions.
-Designed for Turbo C++ with screen clear and pause features.
 */
 
 

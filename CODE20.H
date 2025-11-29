@@ -1,6 +1,6 @@
 /*
 Title: Palindrome Checker using Class
-Description: Turbo C++ compatible program defining a Palindrome class to check if a string or number is palindrome.
+Description: Program defining a Palindrome class to check if a string or number is palindrome.
 */
 
 class Palindrome {
