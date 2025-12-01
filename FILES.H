@@ -35,4 +35,8 @@
 #include "CODE28.H"
 #include "CODE29.H"
 #include "CODE30.H"
+#include "CODE31.H"
+#include "CODE32.H"
+#include "CODE33.H"
+#include "CODE34.H"
 

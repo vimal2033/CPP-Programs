@@ -33,11 +33,11 @@ char *menu_items[] = {
 	"Check for armstrong number",							// CODE28.H > Armstrong()
 	"Sum of digit",											// CODE29.H > DigitSum()
 	"Transform a string into uppercase",					// CODE30.H > upper()
-	"Diffrence of two dates",
-	"Pramid pattern",
-	"Programm to sort names",
-	"Programm to sort numbers (Bubble sort)",
-	"Program of Matrix 2D array",
+	"Diffrence of two dates",								// CODE31.H > DateDifference()
+	"Pramid pattern",										// CODE32.H > PyramidPattern()
+	"Programm to sort numbers (Bubble sort)",				// CODE33.H > BubbleSort()
+	"Programm to sort names",								// CODE34.H > SortNames()
+	"Program of Matrix 2D array",							// CODE35.H > Matrix2D()
 	"Sum of two matrix",
 	"Programm of DMA 1D",
 	"Programm of DMA 2D",
@@ -89,6 +89,10 @@ void run_program(int index) {
 	case 27: Armstrong(); break;
 	case 28: DigitSum(); break;
 	case 29: upper(); break;
+	case 30: DateDifference(); break;
+	case 31: PyramidPattern(); break;
+	case 32: BubbleSort(); break;
+	case 33: SortNames(); break;
 	
 	
 
