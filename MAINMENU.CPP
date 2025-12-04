@@ -38,22 +38,21 @@ char *menu_items[] = {
 	"Programm to sort numbers (Bubble sort)",				// CODE33.H > BubbleSort()
 	"Programm to sort names",								// CODE34.H > SortNames()
 	"Program of Matrix 2D array",							// CODE35.H > Matrix2D()
-	"Sum of two matrix",
-	"Programm of DMA 1D",
-	"Programm of DMA 2D",
-	"Friend class",
-	"Friend function",
-	"Operater overloading Unary operater",
-	"Simple inharitance",
-	"Multiple inharitance",
-	"multilevel inharitance",
-	"Hierarchical inharitance",
-	"Hybrid inharitance",
-	"Multipath inharitance",
-	"Virtual function",
+	"Sum of two matrix",									// CODE36.H > MatrixSum()
+	"Programm of DMA 1D",									// CODE37.H > DMA1D()
+	"Programm of DMA 2D",									// CODE38.H > DMA2D()
+	"Friend class",											// CODE39.H > FriendCall()										
+	"Friend function",										// CODE40.H > FriendFunctionCall()
+	"Operater overloading Unary operater",					// CODE41.H > UnaryOverload()
+	"Simple inharitance",									// CODE42.H > SingleInharitance()
+	"Multiple inharitance",									// CODE43.H > MultipleInharitance()
+	"multilevel inharitance",								// CODE44.H > MultillevelInharitance()
+	"Hierarchical inharitance",								// CODE45.H > HirarchicalInharitance()			
+	"Hybrid inharitance",									// CODE46.H > HybridInharitance()
+	"Multipath inharitance",								// CODE47.H > MultipathInharitance()
+	"Virtual function",										// CODE48.H > VirtualFunction()
 
 
-    // add your program titles here...
 };
 const int TOTAL_ITEMS = sizeof(menu_items)/sizeof(menu_items[0]);
 
@@ -93,6 +92,20 @@ void run_program(int index) {
 	case 31: PyramidPattern(); break;
 	case 32: BubbleSort(); break;
 	case 33: SortNames(); break;
+	case 34: Matrix2D(); break;
+	case 35: MatrixSum(); break;
+	case 36: DMA1D(); break;
+	case 37: DMA2D(); break;
+	case 38: FriendCall(); break;
+	case 39: FriendFunctionCall(); break;
+	case 40: UnaryOverload(); break;
+	case 41: SingleInheritance(); break;
+	case 42: MultipleInharitance(); break;
+	case 43: MultillevelInharitance(); break;
+	case 44: HirarchicalInharitance(); break;
+	case 45: HybridInharitance(); break;
+	case 46: MultipathInharitance(); break;
+	case 47: VirtualFunction(); break;
 	
 	
 
