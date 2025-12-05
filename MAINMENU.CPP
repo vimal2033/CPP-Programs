@@ -51,7 +51,13 @@ char *menu_items[] = {
 	"Hybrid inharitance",									// CODE46.H > HybridInharitance()
 	"Multipath inharitance",								// CODE47.H > MultipathInharitance()
 	"Virtual function",										// CODE48.H > VirtualFunction()
-
+	"Copy Constructor ",									// CODE49.H > ConstructorCopy()
+	"Decimal to Binary Conversion",							// CODE50.H > DecimalBinary()
+	"Nelson Number Check",									// CODE51.H > Nelson()
+	"Operator Overloading using Friend Function",			// CODE52.H > FriendOperatorOverload()
+	"Find Day from Date of Birth",							// CODE53.H > BirthDay()
+	"Matrix Row and Column Sum",							// CODE54.H > Matrix()
+	"String Functions: strlen, strcpy, strcat, strcmp"		// CODE55.H > StringFunction()
 
 };
 const int TOTAL_ITEMS = sizeof(menu_items)/sizeof(menu_items[0]);
@@ -106,6 +112,13 @@ void run_program(int index) {
 	case 45: HybridInharitance(); break;
 	case 46: MultipathInharitance(); break;
 	case 47: VirtualFunction(); break;
+	case 48: ConstructorCopy(); break;
+	case 49: DecimalBinary(); break;
+	case 50: Nelson(); break;
+	case 51: FriendOperatorOverload(); break;
+	case 52: BirthDay(); break;
+	case 53: Matrix(); break;
+	case 54: StringFunction(); break;
 	
 	
 
