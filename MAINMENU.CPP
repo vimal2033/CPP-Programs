@@ -57,7 +57,12 @@ char *menu_items[] = {
 	"Operator Overloading using Friend Function",			// CODE52.H > FriendOperatorOverload()
 	"Find Day from Date of Birth",							// CODE53.H > BirthDay()
 	"Matrix Row and Column Sum",							// CODE54.H > Matrix()
-	"String Functions: strlen, strcpy, strcat, strcmp"		// CODE55.H > StringFunction()
+	"String Functions: strlen, strcpy, strcat, strcmp"	,	// CODE55.H > StringFunction()
+	"1D ARRAY OPERATIONS",									// CODE56.H > ARRAY1D_DSA()
+	"QUEUE OPERATIONS",										// CODE57.H > QUEUE_DSA()
+	"STACK OPERATIONS ",									// CODE58.H > STACK1D_DSA()
+	"LINKED LIST OPERATIONS ",								// CODE59.H > LINKED_LIST_DSA()
+	"TREE (BST) OPERATIONS "								// CODE60.H > TREE_DSA()
 
 };
 const int TOTAL_ITEMS = sizeof(menu_items)/sizeof(menu_items[0]);
@@ -119,6 +124,11 @@ void run_program(int index) {
 	case 52: BirthDay(); break;
 	case 53: Matrix(); break;
 	case 54: StringFunction(); break;
+	case 55: ARRAY1D_DSA(); break;
+	case 56: QUEUE_DSA(); break;
+	case 57: STACK_DSA(); break;
+	case 58: LINKED_LIST_DSA(); break;
+	case 59: TREE_DSA(); break;
 	
 	
 
