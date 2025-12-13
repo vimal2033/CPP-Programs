@@ -63,7 +63,7 @@ int queue1d_isEmpty() {
 }
 
 // MAIN FUNCTION - Menu Driven Interface
-int QUEUE_DSA() {
+void QUEUE_DSA() {
     int choice, data;
     clrscr();
     cout << "=== QUEUE DATA STRUCTURE DEMO ===\n";
@@ -103,5 +103,5 @@ int QUEUE_DSA() {
         }
     } while (choice != 4);
 
-    return 0;
+    getch();
 }

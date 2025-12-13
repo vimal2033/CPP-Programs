@@ -116,7 +116,7 @@ void bst1d_postorder(bst1d_node* root) {
 }
 
 // MAIN FUNCTION - Menu Driven Interface
-int TREE_DSA() {
+void TREE_DSA() {
     int choice, value;
     clrscr();
     cout << "=== BINARY SEARCH TREE DEMO ===\n\n";
@@ -175,5 +175,5 @@ int TREE_DSA() {
         cout << endl;
     } while (choice != 6);
 
-    return 0;
+    getch();
 }

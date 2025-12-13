@@ -1,10 +1,9 @@
 /*
-Title: Train Berth Finder for Turbo C++
-Description: Program using TrainBerth class to identify berth type (L, M, U, SL, SU) from Indian Railways seat numbers. Uses conio.h and clrscr() for DOS compatibility.
+Title: Train Berth Finder 
+Description: Program using TrainBerth class to identify berth type (L, M, U, SL, SU) from Indian Railways seat numbers.
 */
 
 
-// TrainBerth class for Turbo C++ (DOS compatible)
 class TrainBerth
 {
 private:

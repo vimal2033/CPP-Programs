@@ -71,7 +71,7 @@ void list1d_deleteBegin() {
 }
 
 // MAIN FUNCTION - Menu Driven Interface
-int LINKED_LIST_DSA() {
+void LINKED_LIST_DSA() {
     int choice, value;
     clrscr();
     cout << "=== LINKED LIST DATA STRUCTURE DEMO ===\n\n";
@@ -112,5 +112,5 @@ int LINKED_LIST_DSA() {
         cout << endl;
     } while (choice != 4);
 
-    return 0;
+    getch();
 }

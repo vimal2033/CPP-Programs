@@ -93,7 +93,7 @@ int array1d_search(int key) {
 }
 
 // MAIN FUNCTION - Menu Driven Interface
-int ARRAY1D_DSA() {
+void ARRAY1D_DSA() {
     int choice, pos, data;
     clrscr();
     
@@ -162,5 +162,5 @@ int ARRAY1D_DSA() {
         }
     } while (choice != 7);
     
-    return 0;
+    getch();
 }

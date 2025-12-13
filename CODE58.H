@@ -55,7 +55,7 @@ void stack1d_peek() {
 }
 
 // MAIN FUNCTION - Menu Driven Interface
-int STACK_DSA() {
+void STACK_DSA() {
     int choice, data;
     clrscr();
     cout << "=== STACK DATA STRUCTURE DEMO ===\n";
@@ -100,5 +100,5 @@ int STACK_DSA() {
         }
     } while (choice != 5);
     
-    return 0;
+    getch();
 }

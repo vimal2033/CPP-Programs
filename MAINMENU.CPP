@@ -62,7 +62,10 @@ char *menu_items[] = {
 	"QUEUE OPERATIONS",										// CODE57.H > QUEUE_DSA()
 	"STACK OPERATIONS ",									// CODE58.H > STACK1D_DSA()
 	"LINKED LIST OPERATIONS ",								// CODE59.H > LINKED_LIST_DSA()
-	"TREE (BST) OPERATIONS "								// CODE60.H > TREE_DSA()
+	"TREE (BST) OPERATIONS ",								// CODE60.H > TREE_DSA()
+	"BUBBLE SORT IMPLEMENTATION",							// CODE61.H > BUBBLE_SORT_DSA()
+	"SELECTION SORT IMPLEMENTATION",						// CODE62.H > SELECTION_SORT_DSA()
+	"QUICK SORT IMPLEMENTATION"								// CODE63.H > QUICK_SORT_DSA()
 
 };
 const int TOTAL_ITEMS = sizeof(menu_items)/sizeof(menu_items[0]);
@@ -129,6 +132,11 @@ void run_program(int index) {
 	case 57: STACK_DSA(); break;
 	case 58: LINKED_LIST_DSA(); break;
 	case 59: TREE_DSA(); break;
+	case 60: BUBBLE_SORT_DSA(); break;
+	case 61: SELECTION_SORT_DSA(); break;
+	case 62: QUICK_SORT_DSA(); break;
+
+
 	
 	
 
