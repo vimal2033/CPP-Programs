@@ -28,7 +28,8 @@ void friendFunc(FriendDemoClass& obj) {
     cout << "Private data modified by friend function to: " << obj.secretData << endl;
 }
 
-int FriendFunctionCall() {
+void FriendFunctionCall() {
+    clrscr();
     // Create object of FriendDemoClass
     FriendDemoClass obj(100);
 
@@ -38,7 +39,7 @@ int FriendFunctionCall() {
     // Call friend function
     friendFunc(obj);
 
-    return 0;
+    getch();
 }
 
 

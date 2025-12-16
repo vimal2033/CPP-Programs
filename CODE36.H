@@ -8,10 +8,10 @@ corresponding elements, and displays the resulting matrix.
 */
 
 
-int MatrixSum() {
+void MatrixSum() {
     // Declare variables for matrix dimensions
     int rows, cols;
-    
+    clrscr();
     // Get matrix dimensions from user
     cout << "Enter number of rows and columns: ";
     cin >> rows >> cols;
@@ -29,8 +29,8 @@ int MatrixSum() {
 
     // Input second matrix elements row-wise
     cout << "Enter elements of second matrix:\n";
-    for (int k = 0; k < rows; k++) { // Changed 'i' to 'k'
-        for (int l = 0; l < cols; l++) { // Changed 'j' to 'l'
+    for (int k = 0; k < rows; k++) { 
+        for (int l = 0; l < cols; l++) { 
             cin >> matrix2[k][l];
         }
     }
@@ -53,5 +53,5 @@ int MatrixSum() {
     }
 
     cout << "\nProgram executed successfully!" << endl;
-    return 0;
+    getch();
 }

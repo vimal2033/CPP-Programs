@@ -7,9 +7,9 @@ the array, displays the array elements, and then frees the allocated memory.
 */
 
 
-int DMA1D() {
+void DMA1D() {
     int size;
-
+    clrscr();
     // Input the size of the array
     cout << "Enter the size of the array: ";
     cin >> size;
@@ -35,5 +35,5 @@ int DMA1D() {
 
     cout << "Memory freed successfully." << endl;
 
-    return 0;
+    getch();
 }

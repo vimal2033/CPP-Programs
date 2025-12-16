@@ -47,12 +47,13 @@ public:
     }
 };
 
-int SingleInheritance() {
+void SingleInheritance() {
+    clrscr();
     // Create object of derived class
     Student s1(101, 19, 105, 88.5);
 
     cout << "Student Information:" << endl;
     s1.displayStudent();
 
-    return 0;
+    getch();
 }

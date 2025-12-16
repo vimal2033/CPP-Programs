@@ -8,9 +8,9 @@ the allocated memory.
 */
 
 
-int DMA2D() {
+void DMA2D() {
     int rows, cols;
-
+    clrscr();
     // Input the dimensions of the 2D array
     cout << "Enter number of rows: ";
     cin >> rows;
@@ -49,5 +49,5 @@ int DMA2D() {
 
     cout << "\nMemory freed successfully." << endl;
 
-    return 0;
+    getch();
 }

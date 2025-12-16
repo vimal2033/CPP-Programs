@@ -9,7 +9,7 @@ void upper() {
 
     char str[100];
     cout << "Enter a string: ";
-    gets(str);   // read line (avoid in modern C++, but common in old compilers)
+    gets(str);   // read line 
 
     // Convert each character to uppercase
     for (int i = 0; i < strlen(str); i++) {

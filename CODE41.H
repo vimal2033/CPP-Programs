@@ -33,9 +33,9 @@ public:
     }
 };
 
-int UnaryOverload() {
+void UnaryOverload() {
     Number n;
-
+    clrscr();
     n.input();      // take input
     cout << "Before increment: ";
     n.display();
@@ -45,5 +45,5 @@ int UnaryOverload() {
     cout << "After increment: ";
     n.display();
 
-    return 0;
+    getch();
 }

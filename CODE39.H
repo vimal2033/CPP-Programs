@@ -31,7 +31,8 @@ public:
     }
 };
 
-int FriendCall() {
+void FriendCall() {
+    clrscr();
     // Create object of TestClass
     TestClass obj(100);
 
@@ -41,5 +42,5 @@ int FriendCall() {
     // Friend class can access private members
     friendObj.accessPrivate(obj);
 
-    return 0;
+    getch();
 }
